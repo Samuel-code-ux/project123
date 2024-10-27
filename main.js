@@ -26,3 +26,10 @@ function gotPoses(results)
         difference = leftWristX-rightWristX;
         }
 }
+
+function draw(){
+    background('plum');
+    textSize(10);
+    fill('light green');
+    text('Michelle',50, 400);
+}
